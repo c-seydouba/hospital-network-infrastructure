@@ -29,7 +29,25 @@ The goal is to build a segmented, reliable, and secure network that supports com
 
 ## Project Status
 
-**In progress** — The initial VLAN configuration and IP telephony setup have been completed. Routing, security, and external connectivity will be implemented progressively.
+**Status: In progress**
+
+### Implemented
+- VLAN segmentation for administration, technical users, general users, IP telephony, and network management.
+- 802.1Q trunking with a dedicated native VLAN.
+- Voice VLAN and Cisco IP telephony using CME.
+- Inter-VLAN routing using router-on-a-stick.
+- LACP EtherChannel between access switches.
+- STP root bridge selection.
+- Rapid PVST+ configuration and verification.
+
+### Planned
+- DHCPv4, DHCPv6, and IPv6 implementation.
+- Switch port security and Layer 2 security mechanisms.
+- Internal network services and server integration.
+- ISP router, NAT/PAT, and simulated Internet access.
+- Network testing, troubleshooting, and technical documentation.
+
+*Note: Features are progressively implemented and validated in Cisco Packet Tracer. The project status will be updated as testing is completed.*
 
 ## Repository Structure
 
